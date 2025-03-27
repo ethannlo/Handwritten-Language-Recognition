@@ -9,10 +9,10 @@ A deep learning project for classifying handwritten images and identifying the c
 - [Overview](#overview)
 - [Features](#features)
 - [Architecture](#architecture)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Takeaway Results](#takeaway-results)
 - [Future Work](#future-work)
+- [Installation](#installation)
 
 ---
 
@@ -55,24 +55,6 @@ The project employs a multi-component neural network that includes:
    - This helps in better handling variations in handwriting styles.
 
 ---
-
-## Installation
-
-### Prerequisites
-
-- Python 3.7 or higher
-- [PyTorch](https://pytorch.org/) (compatible version with your CUDA/cuDNN setup, if using GPU)
-- NumPy
-- Matplotlib (for visualization, optional)
-- Other dependencies as listed in `requirements.txt`
-
-### Setup
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/ethannlo/Handwritten-Language-Recognition.git
-   cd Handwritten-Language-Recognition
 
 # Takeaway Results
 
@@ -127,6 +109,26 @@ While the current model performs well on the MNIST dataset, there are several ar
 ## **5. Interpretability and Explainability**
 - Apply **Grad-CAM** or **SHAP** to visualize which parts of an image influence predictions.
 - Improve explainability by providing confidence scores alongside predictions.
+
+---
+
+## Installation
+
+### Prerequisites
+
+- Python 3.7 or higher
+- [PyTorch](https://pytorch.org/) (compatible version with your CUDA/cuDNN setup, if using GPU)
+- NumPy
+- Matplotlib (for visualization, optional)
+- Other dependencies as listed in `requirements.txt`
+
+### Setup
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/ethannlo/Handwritten-Language-Recognition.git
+   cd Handwritten-Language-Recognition
 
 Contributions and ideas are welcome! Feel free to submit suggestions via GitHub Issues.
 
